@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -71,7 +71,7 @@ export default function Home() {
           tag="Specialità"
           tagIcon={ChefHat}
           textboxLayout="default"
-          animationType="reveal-blur"
+          animationType="slide-up"
           features={[
             {
               title: "Handmade Pasta",
@@ -105,7 +105,7 @@ export default function Home() {
           tagIcon={UtensilsCrossed}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
-          animationType="reveal-blur"
+          animationType="slide-up"
           products={[
             {
               id: "pasta-carbonara",
@@ -147,7 +147,7 @@ export default function Home() {
           tagIcon={Star}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
-          animationType="reveal-blur"
+          animationType="slide-up"
           testimonials={[
             {
               id: "1",
